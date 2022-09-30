@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "EXAMPLE Form filler",
+	"description": "Automaticly fills list of forms",
+	"version": "1.0",
+
+	"action": {
+		"default_popup": "popup.html"
+	},
+
+	"permisions": [
+		"tabs",
+		"activeTab"
+	]
+}
