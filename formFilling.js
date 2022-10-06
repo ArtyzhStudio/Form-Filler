@@ -1,4 +1,3 @@
-'unsafe-inline'
 var form = document.querySelector("form");
 var btn1 = document.querySelector("#i12");
 var btn2 = document.querySelector("#i18");

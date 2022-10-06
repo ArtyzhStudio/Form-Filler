@@ -1,7 +1,9 @@
-'unsafe-inline'
-
-document.getElementById("fillList").addEventListener("click", fillListOfForms);
-document.getElementById("fill").addEventListener("click", fillForm);
+var first = document.getElementById("fillList");
+console.log(first);
+first.addEventListener("click", first);
+var second = document.querySelector("#fill");
+console.log(second);
+second.addEventListener("click", second);
 
 function fillListOfForms() {
 	const list = document.querySelectorAll(".form");
