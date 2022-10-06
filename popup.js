@@ -6,6 +6,7 @@ console.log(second);
 second.addEventListener("click", second);
 
 function fillListOfForms() {
+	console.log("feoifnkngr")
 	const list = document.querySelectorAll(".form");
 	for (var i of list) {
 		var cur = chrome.tabs.create({ active: false, url: i.href }, (tab => tab));
@@ -16,6 +17,7 @@ function fillListOfForms() {
 }
 
 function fillForm() {
+	console.log("ofinoerif")
 	var cur = chrome.tabs.query({ active: true, lastFocusedWindow: true });
 	alert(cur.id);
 	chrome.tabs.executeScript(null, { file: "formFilling.js" })
