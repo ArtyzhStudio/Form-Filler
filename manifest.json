@@ -10,5 +10,8 @@
 		"tabs",
 		"activeTab",
 		"scripting"
+	],
+	"host_permissions": [
+		"https://docs.google.com/forms/d/e/1FAIpQLSflKyNIuB323TF_5OWhFOwuxu_y_Ig-EXZJaYxDixZ6ZlDcKA/viewform"
 	]
 }
